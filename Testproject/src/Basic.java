@@ -11,6 +11,8 @@ public class Basic {
 		 driver.get("https://www.google.com/");
 		 System.out.println(driver.getTitle());
 		 
+		 System.out.println(driver.getCurrentUrl());
+		 
 		 
 
 	}
